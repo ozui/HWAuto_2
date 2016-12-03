@@ -1,3 +1,5 @@
+package practice2;
+
 /**
  * Created by Oksana on 24.11.2016.
  */

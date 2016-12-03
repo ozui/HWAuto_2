@@ -1,3 +1,5 @@
+package practice2;
+
 import org.apache.commons.lang3.RandomStringUtils;
 
 /**
