@@ -1,0 +1,20 @@
+<suite name="Poker Suite" verbose="1" >
+    <test name="Login Tests">
+        <parameter name="username"  value="admin"/>
+        <parameter name="password"  value="123"/>
+        <parameter name="wrong_password"  value="666"/>
+        <parameter name="title"  value="Players"/>
+        <parameter name = "error_if_blank" value="Value is required and can't be empty"/>
+        <parameter name = "error_if_wrong_password" value="Invalid username or password"/>
+        <classes>
+            <class name ="practice4.tests.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="CRUD User Tests">
+        <parameter name="user_delete"  value="userdeletez"/>
+        <classes>
+            <class name ="practice4.tests.CRUDUserTests"/>
+        </classes>
+    </test>
+</suite>
